@@ -1,0 +1,123 @@
+body {
+      position: relative;
+}
+.affix {
+      top: 110px;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.banner{
+	width:100%;
+	height:100px;
+	background-color: #035b7b;
+	color:white;
+	position: relative;
+}
+.banner h1{
+	position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer{
+    width:100%;
+    height: 50px;
+    background-color: #035b7b;
+    color:white;
+    text-align: center;
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+pre code {
+    white-space: unset;
+}
+/*.accordian-part {
+    border: 1px solid white;
+    width: 250px;
+    height: 750px;
+    box-shadow: 5px 5px 5px -3px #999, 5px 5px 3px -3px #999, -5px 5px 3px -3px #999;
+    margin-top: -71px;
+    background-color: white;
+    border-radius: 30px;
+}
+.accordian-heading{
+	text-align: center;
+}
+.accordian-part .panel-group {
+   
+    margin-left: 50px;
+}
+#accordion .panel-title > a:before {
+    float: left;
+    content: "";
+    position: absolute;
+    left: 50px;
+    border-top: 5px solid transparent;
+    border-left: 7px solid #595959;
+    border-bottom: 5px solid transparent;
+    margin-top: 7px;
+}
+#accordion .panel-title a{
+	
+	text-decoration: none;
+	
+}
+#accordion .panel-group .panel-heading+.panel-collapse>.list-group,#accordion .panel-group .panel-heading+.panel-collapse>.panel-body{
+	border-top:none;
+}
+#accordion .panel-body ul{
+	list-style: none;
+	margin-left: -15px;
+}
+#accordion .panel-body ul li{
+	
+}
+#accordion .panel-default{
+	border:none!important;
+}
+#accordion .panel-default>.panel-heading{
+	background-color: transparent;
+	border-color:transparent;
+}
+#accordion .panel{
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.05);
+    box-shadow: 0 0px 0px rgba(0,0,0,.05);
+}
+#accordion .panel-group .panel{
+padding-left: 50px;
+}
+.tab-content{
+	padding: 15px 30px;
+}
+.highlight {
+    padding: 9px 14px;
+    margin-bottom: 14px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+}*/
+#carousel-example-generic{
+	height: 300px;
+}
+.fixed {
+    position: fixed; 
+    top: 0; 
+    z-index: 1;
+}
+.margin-top-50px{
+    margin-top: 50px;
+}
+#Tab, #Accordian, #alerts, #modal, #dropdown, #navbar, #carousol  {
+       margin-top: 50px;
+    }
+ @media screen and (max-width: 810px) {
+    #Tab, #Accordian, #alerts, #modal, #dropdown, #navbar, #carousol  {
+        margin-left: 150px;
+    }
+  }
